@@ -14,28 +14,28 @@
         <div class="container">
             <div class="sponsor_child_inner bg-warning p-4 text-dark">
                 <div class="row">
-                    <div class="sponsor_child_text pb-2">
+                    <div class="sponsor_child_title pb-2">
                         <h2 class="fw-semibold ">i would like to sponsor a child</h2>
-                        <p>Donation Option <span>*</span></p>
+                        <p>Donation Option <span class="text-danger">*</span></p>
                     </div>
                 </div>
                 <div class="radio_toolber">
                     <div class="row">
                         <div class="col-6 ">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                        <label class="form-check-label" for="flexRadioDefault1">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="onetime">
+                        <label class="form-check-label" for="onetime">
                             One Time
                         </label>
                         </div>
                         <div class="col-6 ">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-                            <label class="form-check-label" for="flexRadioDefault2">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="monthly">
+                            <label class="form-check-label" for="monthly">
                             Monthly
                             </label>
                         </div>
                     </div>
                 </div>
-                <div class="sponsor_form">
+                <div class="sponsor_form pb-5">
                     <div class="row">
                         <div class="col-sm-6 pt-4">
                             <select class="form-select" aria-label="Default select example">
@@ -66,43 +66,130 @@
                         </div>
                     </div>
                 </div>
-
-                
-            
-            </div>
-        </div>
-    </div>
-    <div class="donner_information">
-        <div class="container">
-            <div class="donner_information_inner bg-primary p-4 text-white">
-                <div class="row">
-                    <div class="sponsor_child_text pb-4">
-                        <h2 class="fw-semibold ">i would like to sponsor a child</h2>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="sponsor_one_time">
-                            <button>One Time</button>
-                            <div class="form_area">
-                                <!-- <form action="">
-                                    <input type="number" >
-                                </form> -->
-                                <div class="my-4">
-                                    <input type="number" class="form-control fs-5"  placeholder="Mr">
-                                </div>
-                                <div class="my-4">
-                                    <input type="email" class="form-control fs-5"  placeholder="Email">
-                                </div>
-                                <div class="my-4">
-                                    <input type="number" class="form-control fs-5"  placeholder="State">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
     <!-- sponsor_child_area_end -->
+
+
+
+
+
+    <!-- donner_information_area_start -->
+    <div class="donner_information">
+        <div class="container">
+            <div class="donner_information_inner bg-primary p-4 text-white">
+                <div class="row">
+                    <div class="sponsor_child_title pb-4">
+                        <h2 class="fw-semibold ">Donor Information <span class="text-danger">*</span></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 pt-4">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Mr</option>
+                            <option value="ms">Ms</option>
+                            <option value="mrs">Mrs</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-6 pt-4">
+                        <input type="text" class="form-control" placeholder="Full Name">
+                    </div>
+                    <div class="col-sm-6 pt-4">
+                        <input type="email" class="form-control" placeholder="Email">
+                    </div>
+                    <div class="col-sm-6 pt-4">
+                        <input type="text" class="form-control" placeholder="Phone No." maxlength="13" name="phone">
+                    </div>
+                    <div class="col-sm-6 pt-4">
+                        <select class="form-select" aria-label="Default select example" required>
+                            <option selected>State*</option>
+                            <option value="1">Andaman and Nicobar Islands</option>
+                            <option value="2">Andhra Pradesh</option>
+                            <option value="3">Arunachal Pradesh</option>
+                            <option value="4">Assam</option>
+                            <option value="5">Bihar</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-6 pt-4">
+                        <select class="form-select" aria-label="Default select example" required>
+                            <option selected>City*</option>
+                            <option value="1">Andaman and Nicobar Islands</option>
+                            <option value="2">Andhra Pradesh</option>
+                            <option value="3">Arunachal Pradesh</option>
+                            <option value="4">Assam</option>
+                            <option value="5">Bihar</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-12 pt-4">
+                        <input type="text" class="form-control" placeholder="PAN Number">
+                        <p class=" fs-6 fw-normal pt-2 ps-3">As per the Indian Income Tax Authority Rule, a donor is required to add PAN number in case the donor wishes to avail the 80G tax exemption certificate</p>
+                    </div>
+                </div>
+                <!-- payment_option_area_start -->
+                <div class="row">
+                    <div class="payment_option_title py-5">
+                        <h2 class="fw-semibold ">Payment Options <span class="text-danger">*</span></h2>
+                    </div>
+                    <div class="payment_option_inner ">
+                        <div class="pay_option me-4">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="razorpay">
+                                <label class="form-check-label" for="razorpay">
+                                  <img src="assets/img/razorpay.jpg" alt="">
+                                </label>
+                            </div>
+                        </div>
+                        <div class="pay_option me-4">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="cc-avenue">
+                                <label class="form-check-label" for="cc-avenue">
+                                  <img src="assets/img/cc-avenue.jpg" alt="">
+                                </label>
+                            </div>
+                        </div>
+                        <div class="pay_option me-4">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="billdesk">
+                                <label class="form-check-label" for="billdesk">
+                                  <img src="assets/img/billdesk.jpg" alt="">
+                                </label>
+                            </div>
+                        </div>
+                        <div class="pay_option">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="paytm">
+                                <label class="form-check-label" for="paytm">
+                                  <img src="assets/img/paytm.jpg" alt="">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- payment_option_area_end -->
+
+            </div>
+        </div>
+    </div>
+    <!-- donner_information_area_start -->
+
+
+ 
+    <div class="payment_option_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+   
 
 
 
