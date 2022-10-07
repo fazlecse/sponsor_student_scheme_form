@@ -16,14 +16,14 @@ body{
 }
 
 /* common_setup */
-h2{
+.custom_title h2{
     text-transform:uppercase;
     display: flex;
     align-items: center;
     position: relative;
     font-family: 'Oswald', sans-serif;
 }
-h2::before {
+.custom_title h2::before {
 	content: "";
 	background: #000;
 	width: 4px;
