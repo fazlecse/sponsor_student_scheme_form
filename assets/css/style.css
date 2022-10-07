@@ -63,6 +63,10 @@ h2::before {
 	border-color: #ef008c;
 	color: #fff;
 }
+.donner_information_inner .form-check-input:checked {
+	background-color: #FFCA2C;
+	border-color: #FFCA2C;
+}
 
 /* sponsor_child_area_end */
 
