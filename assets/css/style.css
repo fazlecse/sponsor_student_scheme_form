@@ -58,6 +58,11 @@ h2::before {
 	width: 0;
 	position: fixed;
 }
+.radio_toolber input[type="radio"]:checked + label{
+	background-color: #ef008c;
+	border-color: #ef008c;
+	color: #fff;
+}
 
 /* sponsor_child_area_end */
 
